@@ -140,11 +140,11 @@ li{
     animation: slideLeft 1s ease forwards;
     animation-delay: 2s;
 }
-section{
+/* section{
     min-height: 100vh;
     padding: 5rem 7% 2rem ;
     margin-bottom: 8rem;
-}
+} */
 .home {
     display: flex;
     align-items: center;
@@ -530,7 +530,7 @@ section{
 } */
 .blog {
     /* margin: 8rem 0; */
-    padding: 8rem 7% 4rem ;
+    padding: 4rem 7% 4rem ;
 }
 .blog h1{
     text-align: center;
@@ -547,14 +547,9 @@ section{
     flex: 1 1 16rem;
     border-radius: 1rem;
     color: var(--text-color);
-    /* border-left: .1rem solid rgb(195, 192, 192); */
     text-align: center;
-    /* border-right: .1rem solid rgb(195, 192, 192); */
     border-top: .5rem solid var(--main-color);
-    /* border-bottom: .5rem solid var(--main-color); */
-    /* border: .2rem solid var(--main-color); */
     transition: .5s ease;
-    /* box-shadow: 0 .1rem 0 .5rem var(--main-color); */
     box-shadow: 0 .1rem .5rem var(--shad-color);
     background-color: var(--white-color);
 
@@ -565,7 +560,7 @@ section{
 }
 
 .blog .btn a button{
-    padding: 1rem 3.5rem;
+    padding: 1rem;
     border-radius: .3rem;
     background-color: var(--main-color);
     cursor: pointer;
@@ -818,6 +813,11 @@ textarea{
    }
    .home h3 {
     font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1rem;
+    opacity: 0;
+    animation: slideLeft 1s ease forwards;
+    animation-delay: .2s;
    }
    .home h1 {
     font-size: 1.7rem;
@@ -1384,9 +1384,7 @@ textarea{
     
 
 @media only screen and (max-width:800px){
-   .header {
-    padding-right: 2rem;
-   }
+  
     .menu a:nth-child(1),
     .menu a:nth-child(2){
         color: var(--text-color);
@@ -1908,10 +1906,15 @@ textarea{
          
      }
  
-    
+     .home h3 {
+        font-size: 1rem;
+    }
      h1 {
          font-size: 1.4rem;
      }
+     .home h1 {
+        font-size: 1.2rem;
+    }
      .home-text h4 {
          font-size: .8rem;
      }
@@ -1934,13 +1937,13 @@ textarea{
          display: flex;
          flex-direction: column;
          justify-content: center;
-         padding-top: 18rem;
-         
-     
+        min-height: 100vh;
+        padding: 10rem 7% 2rem ;
+        margin-bottom: 0;
      }
      .about h1 {
          font-size: 1.4rem;
-         padding-bottom: 1rem;
+         padding: 2rem 0 1rem 0;
      }
      /* .about-img img {
          display: none;
@@ -2098,7 +2101,7 @@ textarea{
      .cont form {
          box-shadow: 0 .2rem .5rem var(--shad-color);
          border: 2rem;
-         padding: 0 2rem 2rem 2rem;
+         padding: 0 2rem ;
          border-radius: 1rem;
          border-top: .6rem solid var(--main-color);
      
@@ -2215,7 +2218,7 @@ textarea{
         color: var(--bg-color);
     }
     .footer p {
-        font-size: .6rem;
+        font-size: 1rem;
     }
     .footer-iconTop a{
         padding: .3rem;
@@ -2225,9 +2228,6 @@ textarea{
         border: 2px var(--bg-color);
         outline: .1rem solid transparent;
         
-    }
-    .footer-iconTop a:hover {
-        outline-color: var(--bg-color);
     }
     .footer-iconTop a i {
         font-size: 1rem;
