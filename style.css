@@ -664,7 +664,7 @@ li{
 .contact form .contact-box input,
 .contact form textarea {
     width: 100%;
-    padding: .5rem;
+    padding: 1rem;
     font-size: .9rem;
     color: var(--text-color);
     background: var(--bg-color);
@@ -706,7 +706,7 @@ li{
     color: #333;
 }
 /* MEDIA QUERY */
-@media only screen and (max-width:1680px){
+@media only screen and (max-width:1280px){
     .header.sticky .menu li{
         color: var(--text-color);
     
@@ -722,7 +722,7 @@ li{
     .menu-Icon {
         display: none;
     }
-    
+ 
    .home {
     width: 100%;
     padding: 5rem 7% 0 ;
@@ -897,8 +897,8 @@ li{
     
     }
     .menu a {
-        animation: slideLeft .4s ease forwards;
-        animation-delay: calc(.2s * var(--i));
+        animation: slideLeft .09s ease forwards;
+        animation-delay: calc(.01s * var(--i));
     }
     .logo {
         font-size: 1.4rem;
@@ -1132,6 +1132,10 @@ li{
         color: var(--text-color);
     
     }
+    .menu a {
+        animation: slideLeft .09s ease forwards;
+        animation-delay: calc(.01s * var(--i));
+    }
     .about {
         padding-top: 10rem;
     }
@@ -1174,6 +1178,10 @@ li{
     .header.sticky .menu li{
         color: var(--text-color);
     
+    }
+    .menu a {
+        animation: slideLeft .09s ease forwards;
+        animation-delay: calc(.01s * var(--i));
     }
     .menu a:nth-child(1),
     .menu a:nth-child(2){
@@ -1470,6 +1478,10 @@ li{
         color: var(--text-color);
     
     }
+    .menu a {
+        animation: slideLeft .09s ease forwards;
+        animation-delay: calc(.01s * var(--i));
+    }
     .menu {
         padding: 1rem 7%;
     }
@@ -1561,6 +1573,10 @@ li{
     .header.sticky .menu li{
         color: var(--text-color);
     
+    }
+    .menu a {
+        animation: slideLeft .09s ease forwards;
+        animation-delay: calc(.01s * var(--i));
     }
     .menu {
         padding: 1rem 7%;
@@ -1875,6 +1891,10 @@ li{
         color: var(--text-color);
     
     }
+    .menu a {
+        animation: slideLeft .09s ease forwards;
+        animation-delay: calc(.01s * var(--i));
+    }
     .menu {
       padding: 1rem 7% ;
 
@@ -1967,6 +1987,10 @@ li{
     .header.sticky .menu li{
         color: var(--text-color);
     
+    }
+    .menu a {
+        animation: slideLeft .09s ease forwards;
+        animation-delay: calc(.01s * var(--i));
     }
     .logo {
         font-size: 1rem;
@@ -2278,6 +2302,10 @@ li{
     .header.sticky .menu li{
         color: var(--text-color);
     
+    }
+    .menu a {
+        animation: slideLeft .09s ease forwards;
+        animation-delay: calc(.01s * var(--i));
     }
     .about {
         padding: 2rem;
