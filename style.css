@@ -391,7 +391,7 @@ li{
     line-height: 1.5rem;
 }
 .about-me span,
-.contact-head span {
+.contact span {
     color: var(--main-color);
 }
 /* SERVICES */
@@ -669,8 +669,8 @@ li{
     color: var(--text-color);
     background: var(--bg-color);
     margin: .5rem 0;
-    border-radius: .8rem;
-    box-shadow: 0 .3rem .7rem var(--main-color);
+    border-radius: .6rem;
+    box-shadow: 0 .1rem .4rem var(--main-color);
 }
 
 
