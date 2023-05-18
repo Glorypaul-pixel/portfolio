@@ -1137,6 +1137,7 @@ li{
         align-items: center;
         justify-content: space-between;
         padding: 1rem 7%;
+    box-shadow: 0 .1rem 1rem var #706b6b;
         flex-wrap: wrap;
         margin-top: 3rem;
         background-color: var(--main-color);
@@ -1158,7 +1159,7 @@ li{
         font-size: 1rem;
         color: #333;
     }
-   
+    
 }
 @media only screen and (max-width:800px){
     .header.sticky .menu li{
